@@ -31,7 +31,7 @@ Time spent: `7 hours`
 
 ### Walkthrough
 
-![Video Walkthrough](https://github.com/cnc224/ios_yelp_swift/ios_yelp_swift.gif)
+![Video Walkthrough](https://github.com/cnc224/ios_yelp_swift/blob/master/ios_yelp_swift.gif)
  
 
 
