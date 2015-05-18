@@ -23,6 +23,9 @@ class BusinessCell: UITableViewCell {
         // Initialization code
         thumbImageView.layer.cornerRadius = 5
         thumbImageView.clipsToBounds = true
+        
+        // this is to fix wrap problem, doesn't work as expect
+        //nameLabel.preferredMaxLayoutWidth = nameLabel.frame.size.width
     }
 
     var business: Business! {
@@ -32,7 +35,7 @@ class BusinessCell: UITableViewCell {
             categoryLabel.text = business.categories
             addressLabel.text = business.address
             thumbImageView.setImageWithURL(business.imageURL)
-            reviewsCountLabel.text = "\(business.reviewCount)"
+            reviewsCountLabel.text = "\(business.reviewCount!) Reviews"
             ratingImageView.setImageWithURL(business.ratingImageURL)
             
             //priceLabel.text = business.
